@@ -1,5 +1,5 @@
 import { ClerkProvider, Show, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
-import { Montserrat, Montserrat } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${montserrat.variable} antialiased`}>
         <ClerkProvider>
           <Header />
           {children}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { UserButton } from "@clerk/nextjs";
 
 function Header() {
     const headerMenu = [
@@ -11,13 +12,13 @@ function Header() {
         {
             id: 2,
             name: "Package",
-            icon: '/Package.jpg'
+            icon: '/Package1.png'
         }
     ]
   return (
     <div className="p-4 pb-3 pl-10 border-b-4 border-gray-200 flex items-center justify-between">
         <div className="flex items-center gap-24">
-            <Image src="/Logo.jpg"
+            <Image src="/UberLogo.png"
                 alt="Logo"
                 width={70}
                 height={70}
