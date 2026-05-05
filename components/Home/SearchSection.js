@@ -6,6 +6,8 @@ function SearchSection() {
         <p className="text-[20px] font-bold">Get a Ride</p>
         <InputItem type="source" />
         <InputItem type="destination" />
+
+        <button className=" p-3 bg-black text-white w-full mt-5 rounded-lg">Search</button>
     </div>
   )
 }
