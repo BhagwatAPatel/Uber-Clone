@@ -1,7 +1,6 @@
-import { ClerkProvider, Show, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
 
 const montserrat = Montserrat({
   variable: '--font-montserrat',
@@ -17,10 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.variable} antialiased`}>
-        <ClerkProvider>
-          <Header />
-          {children}
-        </ClerkProvider>
+        <ClerkProvider>{children}</ClerkProvider>
       </body>
     </html>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import InputItem from '@/components/Home/InputItem'
 
 function SearchSection() {
   return (
