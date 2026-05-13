@@ -16,10 +16,14 @@
     "react-google-places-autocomplete": "^4.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "4.3.0",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }
